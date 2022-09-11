@@ -1,0 +1,4 @@
+PROGRAM Lada(INPUT, OUTPUT);
+BEGIN
+  WRITELN('μαδα');
+END.     

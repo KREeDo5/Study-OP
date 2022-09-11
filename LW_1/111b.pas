@@ -1,0 +1,4 @@
+PROGRAM SantaClaus(INPUT, OUTPUT);
+BEGIN
+  WRITELN('Santa Claus')
+END.
