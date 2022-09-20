@@ -11,7 +11,7 @@ BEGIN
       IF Ch <> ' '
       THEN
         WRITE(Ch);
-        READ(Ch);
+      READ(Ch)
     END;
   WRITELN
 END.
