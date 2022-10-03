@@ -1,10 +1,10 @@
-PROGRAM Pyziryok(INPUT, OUTPUT);
+PROGRAM Bubble(INPUT, OUTPUT);
 VAR
   Ch1, Ch2, Ch3: CHAR;
 BEGIN
   READ(Ch1, Ch2, Ch3);
   WRITELN('Input data: ', Ch1, Ch2, Ch3);
-  WRITE('Sorted data by bubble sorting method : ');
+  WRITE('Sorted data by bubble method : ');
   IF Ch1 <= Ch2
   THEN
     IF Ch3 < Ch2
