@@ -1,7 +1,7 @@
 PROGRAM IFSort3(INPUT, OUTPUT); {DP1}
 {sorting 3-line from INPUT to OUTPUT}
 VAR
-  Ch1, Ch2, Ch3:Char;
+  Ch1, Ch2, Ch3: CHAR;
 BEGIN {IFSort3}
   READ(Ch1, Ch2, Ch3);
   WRITELN('Input data ', Ch1, Ch2, Ch3);
