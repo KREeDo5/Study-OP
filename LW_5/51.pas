@@ -1,4 +1,4 @@
-PROGRAM IFSort3(INPUT, OUTPUT); {DP1}
+PROGRAM IfSort3(INPUT, OUTPUT); {DP1}
 {sorting 3-line from INPUT to OUTPUT}
 VAR
   Ch1, Ch2, Ch3: CHAR;
@@ -22,7 +22,7 @@ BEGIN {IFSort3}
         ELSE {Ch3 <= Ch1 < Ch2:sorting Ch1, Ch2, Ch3 to OUTPUT}
           WRITELN(Ch3, Ch1, Ch2)
     ELSE
-    {Ch2 <= Ch1:sorting Ch1, Ch2, Ch3 ? OUTPUT}
+    {Ch2 <= Ch1:sorting Ch1, Ch2, Ch3 to OUTPUT}
       IF Ch1 < Ch3{DP2.1.2}
       THEN {Ch2 <= Ch1 < Ch3:sorting Ch1, Ch2, Ch3 to OUTPUT}
         WRITELN(Ch2, Ch1, Ch3)
