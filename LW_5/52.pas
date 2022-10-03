@@ -29,7 +29,7 @@ BEGIN {MinSort3}
       WRITE(Ch3)
   END;
   {Sorting Ch1, Ch2 in OUTPUT}
-  BEGIN
+  BEGIN {DP3.2}
   IF Ch1 < Ch2
     THEN
       WRITE(Ch1, Ch2)
