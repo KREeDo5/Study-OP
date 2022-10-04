@@ -24,9 +24,40 @@ BEGIN {SarahRevere}
         THEN {End of the data}
           Looking := 'N'
       END; {DP1.2}
-      WRITELN(W1, W2, W3, W4) {output for testing}
       {Check window for 'land'}
+      BEGIN {DP1.3}
+        IF W1 = 'l'
+        THEN
+          IF W2 = 'a'
+          THEN
+            IF W3 = 'n'
+            THEN
+              IF W4 = 'd'
+              THEN {'land' found}
+                Looking := 'L'
+      END; {DP1.3}
       {Check window for 'sea'}
-    END
+      BEGIN {DP1.4}
+        IF W2 = 's'
+        THEN
+          IF W3 = 'e'
+          THEN
+             IF W4 = 'a'
+             THEN {'sea' Found}
+                Looking := 'S'
+      END {DP1.4}
+    END;
   {made message Sarah}
+  BEGIN {DP1.5}
+    IF Looking = 'L'
+    THEN
+      WRITELN('The British are coming by land.')
+    ELSE
+      IF Looking = 'S'
+      THEN
+        WRITELN('The British coming by sea.')
+      ELSE
+        WRITELN('Sarah didn''t say')
+  END
 END. {Sarah revere}
+
