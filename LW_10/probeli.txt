@@ -1,0 +1,14 @@
+IF W2 = ' '
+THEN
+  READ(W2);
+  WHILE W2 = ' '
+  DO
+    READ(W2)
+IF (W2 = '(') OR (W2 = ')')
+THEN
+  PRINT(W2);
+  READ(W2);
+  WHILE W2 = ' '
+  DO
+    READ(W2);
+

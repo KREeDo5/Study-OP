@@ -1,0 +1,13 @@
+READ(Ch1);
+READ(Ch1, Ch2);
+READLN;
+READLN(A);
+READLN(A, B);
+WRITE(Ch);
+WRITE(Ch, Ch2);
+WRITE('A');
+WRITE('Abc');
+WRITE('B', 'AVX')
+WRITE('DONT''T')
+WRITE('"Fuck"')
+WRITELN()

@@ -1,0 +1,11 @@
+[Project]
+FileName=D:\labs\pascal_labs\study_op\GNUpas\test.pas.dp
+Name=test.pas
+MainUnit=test.pas
+UnitCount=1
+ResFiles=
+NoConsole=1
+IsDll=0
+Icon=D:\Programms\GNUpas\dev_gnu_pascal\bin\Mainicon.ico
+[Unit1]
+FileName=test.pas

@@ -1,4 +1,10 @@
 PROGRAM Goodbye(INPUT, OUTPUT);
+VAR
+  Ch1: CHAR;
 BEGIN
-  WRITELN('GOODBYE')
+  WRITELN;
+  Ch1 := 'bv';
+  BEGIN
+    WRITE(Ch1)
+  END
 END.

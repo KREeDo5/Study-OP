@@ -4,7 +4,8 @@ VAR
   Ch1, Ch2, Ch3: CHAR;
 BEGIN {MinSort3}
   READ(Ch1, Ch2, Ch3);
-  WRITE('Input data (', Ch1, ',', Ch2,',', Ch3, ') are sorting to (');
+  WRITELN('Input data ', Ch1, Ch2, Ch3);
+  WRITE('Sorted data ');
   {Printing Minimum in OUTPUT, saved content in Ch1 and Ch2}
   BEGIN {DP3.1}
   IF Ch1 < Ch2
@@ -26,15 +27,14 @@ BEGIN {MinSort3}
       END
     ELSE
       WRITE(Ch3)
-  END;{DP3.1}
+  END;
   {Sorting Ch1, Ch2 in OUTPUT}
   BEGIN {DP3.2}
-  WRITE(',');
   IF Ch1 < Ch2
     THEN
-      WRITE(Ch1, ',', Ch2, ').')
+      WRITE(Ch1, Ch2)
     ELSE
-      WRITE(Ch2, ',', Ch1, ').')
-  END;{DP3.2}
+      WRITE(Ch2, Ch1)
+  END; {DP3.2}
   WRITELN
 END.{Minsort3}
